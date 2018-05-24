@@ -10,6 +10,9 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+/**
+ * Http route to receive the post requests
+ */
 app.post('/', (req, res) => {
 
   // get text param
@@ -43,6 +46,8 @@ app.listen(port, (err) => {
  * normalize text
  * reverses text
  * compare the strings
+ *
+ * @param text to be compared
  */
 compareTextIsPalindrome = (text) => {
   const normalizedText = normalizeText(text);
@@ -56,6 +61,8 @@ compareTextIsPalindrome = (text) => {
  *
  * set lowercase
  * remove spaces
+ *
+ * @param text to be normalized
  */
 normalizeText = (text) => {
   return text.toLowerCase().replace(/\s/g, '');
@@ -67,6 +74,8 @@ normalizeText = (text) => {
  * convert to array
  * reverses array
  * join into new string
+ *
+ * @param text to be reversed
  */
 reverseText = (text) => {
   return [...text].reverse().join('');
