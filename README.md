@@ -8,7 +8,7 @@ npm install
 node app.js
 ```
 The Api will be available on address http://localhost:3000
-Post a request to root path `/` with `text` a string param to receive `200` or `400` as result.
+Post requests to the root path `/` with `text` a string param. To receive `200` or `400` http status response.
 
 #### Install and Run Frontend
 ##### Install Angular CLI
