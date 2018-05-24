@@ -7,7 +7,8 @@ cd api
 npm install
 node app.js
 ```
-The Api will be available on port 3000
+The Api will be available on address http://localhost:3000
+Post a request to root path `/` with `text` a string param to receive `200` or `400` as result.
 
 #### Install and Run Frontend
 ##### Install Angular CLI
