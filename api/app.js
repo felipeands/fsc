@@ -14,6 +14,8 @@ app.post('/', (req, res) => {
 
   // get text param
   const text = req.body.text || '';
+
+  // verify if the text is a palindrome
   const textIsPalindrome = compareTextIsPalindrome(text);
 
   if (text && textIsPalindrome) {
