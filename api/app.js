@@ -1,5 +1,7 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
+app.use(cors());
 const port = 3000;
 
 var bodyParser = require('body-parser')
@@ -11,7 +13,7 @@ app.use(bodyParser.urlencoded({
 app.post('/', (req, res) => {
 
   // get text param
-  const text = req.body.text;
+  const text = req.body.text || '';
   const textIsPalindrome = compareTextIsPalindrome(text);
 
   if (textIsPalindrome) {
