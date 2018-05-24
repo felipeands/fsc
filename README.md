@@ -1,4 +1,5 @@
 ## FSCHALLENGE
+ANGULAR / NODEJS / EXPRESS application
 
 #### Install and run API
 Node 8.11.2
