@@ -19,15 +19,19 @@ export class AppComponent {
   onChangeText() {
     this.apiService.verifyIsPalindrome(this.text).then(_ => {
       this.isPalindrome = true;
-      this.hasResult = true;
+      this.onShowResult();
     }, (err) => {
       if (err.status === 400) {
         this.isPalindrome = false;
-        this.hasResult = true;
+        this.onShowResult();
       } else {
         this.onClearResult();
       }
     });
+  }
+
+  onShowResult() {
+    this.hasResult = true;
   }
 
   onClearResult() {
