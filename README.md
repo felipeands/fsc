@@ -33,4 +33,4 @@ ng build --prod
 The files will be available in the `dist` folder
 
 ### Using the application
-Fill the field and press `Verify` to check if the word or phrase is a polidrome.
+Fill the field and press `Verify` button to check if the word or phrase is a polidrome.
