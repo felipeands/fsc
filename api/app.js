@@ -45,7 +45,8 @@ app.listen(port, (err) => {
 compareTextIsPalindrome = (text) => {
   const normalizedText = normalizeText(text);
   const reversedText = reverseText(normalizedText);
-
+console.log('reversed', reversedText);
+console.log('normal', normalizedText);
   return reversedText === normalizedText;
 }
 
@@ -56,7 +57,7 @@ compareTextIsPalindrome = (text) => {
  * remove spaces
  */
 normalizeText = (text) => {
-  return text.toLowerCase().replace(' ', '');
+  return text.toLowerCase().replace(/\s/g, '');
 }
 
 /**
