@@ -15,10 +15,10 @@ app.post('/', (req, res) => {
   const textIsPalindrome = compareTextIsPalindrome(text);
 
   if (textIsPalindrome) {
-    console.log('[YES]', `${text} is a palindrome`);
+    console.log(`[Yes] '${text}' is a palindrome`);
     res.statusCode = 200;
   } else {
-    console.log('[NO]', `${text} is not a palindrome`);
+    console.log(`[No] '${text}' is not a palindrome`);
     res.statusCode = 400;
   }
 
