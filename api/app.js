@@ -45,8 +45,7 @@ app.listen(port, (err) => {
 compareTextIsPalindrome = (text) => {
   const normalizedText = normalizeText(text);
   const reversedText = reverseText(normalizedText);
-console.log('reversed', reversedText);
-console.log('normal', normalizedText);
+
   return reversedText === normalizedText;
 }
 
