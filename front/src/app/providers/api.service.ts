@@ -20,7 +20,6 @@ export class ApiService {
   verifyIsPalindrome(text: string): Promise<any> {
     return new Promise((resolve, reject) => {
       this.http.post(this.apiUrl, { text: text }).subscribe((res) => {
-        console.log(res);
         resolve();
       }, (er) => { reject(er) });
     });
