@@ -3,28 +3,28 @@
 #### Install and run API
 Node 8.11.2
 ```
-$ cd api
-$ npm install
-$ node app.js
+cd api
+npm install
+node app.js
 ```
 The Api will be available on port 3000
 
 #### Install and Run Frontend
 ##### Install Angular CLI
 ```
-$ sudo npm install -g @angular/cli
+sudo npm install -g @angular/cli
 ```
 ##### Run
 ```
-$ cd front
-$ npm install
-$ ng serve
+cd front
+npm install
+ng serve
 ```
 The application will be available on address http://localhost:4200
 
 #### (Optional) You can build this for production
 ```
-$ ng build --prod
+ng build --prod
 ```
 The files will be available in the `dist` folder
 
