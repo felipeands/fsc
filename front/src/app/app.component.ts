@@ -16,6 +16,9 @@ export class AppComponent {
     private apiService: ApiService
   ) { }
 
+  /**
+   * On run new verification
+   */
   onChangeText() {
     this.apiService.verifyIsPalindrome(this.text).then(_ => {
       this.isPalindrome = true;
@@ -30,10 +33,16 @@ export class AppComponent {
     });
   }
 
+  /**
+   * Display the result box
+   */
   onShowResult() {
     this.hasResult = true;
   }
 
+  /**
+   * Close the result box
+   */
   onClearResult() {
     this.hasResult = false;
   }
