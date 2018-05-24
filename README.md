@@ -13,7 +13,7 @@ The Api will be available on port 3000
 ```
 $ sudo npm install -g @angular/cli
 ```
-Angular 6.0.3
+##### Run
 ```
 $ cd front
 $ npm install
