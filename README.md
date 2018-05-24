@@ -1,4 +1,5 @@
 ## FSCHALLENGE
+MEAN application
 
 #### Install and run API
 Node 8.11.2
