@@ -8,11 +8,11 @@ $ npm install
 $ node app.js
 The Api will be available on port 3000
 ```
-#### Install Angular CLI
+#### Install and Run Frontend
+##### Install Angular CLI
 ```
 $ sudo npm install -g @angular/cli
 ```
-#### Install and Run Frontend
 Angular 6.0.3
 ```
 $ cd front
