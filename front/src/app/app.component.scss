@@ -1,0 +1,33 @@
+.content {
+  text-align: center;
+}
+
+.result {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 4px;
+
+  border: 1px solid orangered;
+  color: red;
+
+  &.positive {
+    border: 1px solid cadetblue;
+    color: green;
+  }
+}
+
+input {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+button {
+  border: 1px solid 777;
+  padding: 15px;
+  border-radius: 4px;
+  background: lightgrey;
+}

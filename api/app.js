@@ -16,7 +16,7 @@ app.post('/', (req, res) => {
   const text = req.body.text || '';
   const textIsPalindrome = compareTextIsPalindrome(text);
 
-  if (textIsPalindrome) {
+  if (text && textIsPalindrome) {
     console.log(`[Yes] '${text}' is a palindrome`);
     res.statusCode = 200;
   } else {
