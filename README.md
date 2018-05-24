@@ -19,7 +19,7 @@ $ cd front
 $ npm install
 $ ng serve
 ```
-The application will be available in address http://localhost:4200
+The application will be available on address http://localhost:4200
 
 #### (Optional) You can build this for production
 ```
