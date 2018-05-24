@@ -9,7 +9,6 @@ import { ApiService } from './providers/api.service';
 export class AppComponent {
 
   public text: string;
-  public textVerified: string;
   public isPalindrome: boolean;
   public hasResult: boolean;
 
@@ -29,7 +28,6 @@ export class AppComponent {
         this.onClearResult();
       }
     });
-    this.textVerified = JSON.parse(JSON.stringify(this.text));
   }
 
   onClearResult() {
