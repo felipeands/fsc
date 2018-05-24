@@ -3,9 +3,9 @@
 #### Install and run API
 Node 8.11.2
 ```
-> cd api
-> npm install
-> node app.js
+$ cd api
+$ npm install
+$ node app.js
 The Api will be available on port 3000
 ```
 #### Install Angular CLI
