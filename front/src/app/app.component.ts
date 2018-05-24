@@ -20,7 +20,7 @@ export class AppComponent {
    * On run new verification
    */
   onChangeText() {
-    this.apiService.verifyIsPalindrome(this.text).then(_ => {
+    this.apiService.verifyIsPalindrome(this.text).subscribe(_ => {
       this.isPalindrome = true;
       this.onShowResult();
     }, (err) => {
