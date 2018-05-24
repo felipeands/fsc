@@ -11,7 +11,7 @@ The Api will be available on address http://localhost:3000
 
 
 
-Post requests to the root path `/` with string `text` param (words or phrases). To receive `200` or `400` http response status code.
+Submit `POST` requests to the root path `/` with string `text` param (words or phrases). To receive `200` or `400` http response status code.
 
 #### Install and Run Frontend
 ##### Install Angular CLI
